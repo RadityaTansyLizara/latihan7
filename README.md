@@ -165,6 +165,12 @@ Menampilkan perulangan i pendapata/laba
     print("Laba bulan ke -", i, "sebesar: ", laba)
 print("Total laba adalah: ", pendapatan)
 ![Screenshot (88)](https://github.com/RadityaTansyLizara/latihan7/assets/147571863/6aadffff-9994-4cb4-99c0-46fa634d7dd6)
+![Screenshot (83)](https://github.com/RadityaTansyLizara/latihan7/assets/147571863/d83c76ac-1597-46d5-9b74-85ea9b889a7c)
+![Screenshot (85)](https://github.com/RadityaTansyLizara/latihan7/assets/147571863/87eeeac2-4a1f-4304-82e3-a97e0bbe23e2)
+![Screenshot (86)](https://github.com/RadityaTansyLizara/latihan7/assets/147571863/62af1cab-7356-4357-9012-b9cbe563ff11)
+![Screenshot (87)](https://github.com/RadityaTansyLizara/latihan7/assets/147571863/6d4f5d7e-2879-40e0-9ad7-2d0414432716)
+
+
 
 
 
