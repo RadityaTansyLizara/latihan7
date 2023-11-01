@@ -85,5 +85,90 @@ Menampilkan urutan sesuai inputan dengan hasil di bawah 0.5
 angkarandom = random.uniform(0,0.5)
     print("Bilangan ke :", i, " : ", angkarandom)
 
+    TUGAS MODUL PRAKTIKUM 2
+    Buat program sederhana dengan input tiga buah bilangan, dari ketiga bilangan tersebut tampilkan bilangan terbesarnya. Gunakan statement if.
+
+a = int(input("Masukan bilangan ke-1 :"))
+b = int(input("Masukan bilangan ke-2 :"))
+c = int(input("Masukan bilangan ke-3 :"))
+max = a
+if b > max:
+   max = b
+if c > max:
+   max = c
+print()
+print("Nilai terbesar :", max)
+Penjelasan
+a,b,c sebagai inputan
+max = a Dekralasi variable
+if jika b lebih besar dari a/max, maka max = a
+if jika c lebih besar dari a/max, maka max = c
+![Screenshot (81)](https://github.com/RadityaTansyLizara/latihan7/assets/147571863/fa2cfb78-57bd-4d01-95d3-1b6552512bb6)
+
+TUGAS MODUL PRAKTIKUM 3
+Buat program untuk menampilkan bilangan terbesar dari n buah data yang diinputkan. Masukkan angka 0 untuk berhenti.
+print("===============================")
+print("===Mencari bilangan terbesar===")
+print("===============================\n")
+
+max = 0
+while True:
+    a = int(input("Masukan bilangan :"))
+    if max < a:
+        max = a
+    if a == 0:
+        break
+
+print("Bilangan terbesar adalah :", max)
+Penjelasan
+
+max = 0 Deklarasi variable
+while True: Perulangan tak terbatas
+a = int(input("Masukan bilangan :")) Masukan inputan
+Jika max kurang dari a maka max = a, maka variable max = atau nilai yg di inputkan
+    if max < a:
+        max = 0
+    if a == 0:
+        break
+print("Bilangan terbesar adalah :", max)
+print & max Menampilkan bilangan
+![Screenshot (82)](https://github.com/RadityaTansyLizara/latihan7/assets/147571863/c7ff7982-5fb5-4530-a296-5dcf871155a8)
+
+Buat program sederhana dengan perulangan: program1.py Seorang pengusaha menginvestasikan uangnya untuk memulai usahanya dengan modal awal 100 juta, pada bulan pertama dan kedua belum mendapatkan laba. pada bulan ketiga baru mulai mendapatkan laba sebesar 1% dan pada bulan ke 5, pendapatan meningkat 5%, selanjutnya pada bulan ke 8 mengalami penurunan keuntungan sebesar 2%, sehingga laba menjadi 3%. Hitung total keuntungan selama 8 bulan berjalan usahanya.
+
+modal = 1000000000
+pendapatan = 0
+
+for i in range(1,9,1):
+    if i < 3: 
+        laba = 0
+        pendapatan = pendapatan + laba
+    elif i < 5:
+        laba = modal * 0.01
+        pendapatan = pendapatan + laba
+    elif i < 8:
+        laba + modal * 0.05
+        pendapatan + pendapatan + laba
+    else:
+        laba = modal * 0.02
+        pendapatan = pendapatan + laba
+    print("Laba bulan ke -", i, "sebesar: ", laba)
+print("Total laba adalah: ", pendapatan)
+penjelasan
+
+if i in range(1,9,1) untuk mendeklarasikan perulangan 1-9
+if i < 3 jika i kurang dari bulan ke-3 maka laba/pendapatan = 0
+if i < 5 jika i kurang dari bulan ke-5 maka laba/pendapatan = 0.01
+if i < 8 jika i kurang dari bulan ke-8 maka laba/pendapatan = 0.05
+else: laba bulan terakhir = 0.02
+Menampilkan perulangan i pendapata/laba
+    print("Laba bulan ke -", i, "sebesar: ", laba)
+print("Total laba adalah: ", pendapatan)
+![Screenshot (88)](https://github.com/RadityaTansyLizara/latihan7/assets/147571863/6aadffff-9994-4cb4-99c0-46fa634d7dd6)
+
+
+
+
+
 
 
